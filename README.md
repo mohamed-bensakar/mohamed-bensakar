@@ -16,9 +16,22 @@ Right now I'm building my foundations in networking: how data moves, how network
 
 This profile is my learning log. I document my labs, notes and projects here as I grow.
 
+## 📍 Right now
+
+| | |
+| --- | --- |
+| 📚 **Studying** | Networking fundamentals |
+| 🔭 **Next up** | Cybersecurity, starting after this year |
+| 🧪 **Building** | A home lab with pfSense, Kali and Active Directory |
+| 💬 **Ask me about** | Subnetting, VLANs and how packets travel |
+
 ## 🗺️ My journey
 
 ![Journey: networking to security](journey.svg)
+
+## 📦 A packet's journey
+
+![A packet's journey](packet.svg)
 
 ## 🧰 Skills & tools
 
@@ -46,7 +59,6 @@ This profile is my learning log. I document my labs, notes and projects here as 
 
 ## 🎯 Goals
 
-- [x] Create my GitHub profile
 - [ ] Finish my networking studies and document every lab
 - [ ] Build the home lab: pfSense, Kali and Active Directory
 - [ ] Practice on TryHackMe and HackTheBox
@@ -61,9 +73,21 @@ This profile is my learning log. I document my labs, notes and projects here as 
 | [**homelab**](https://github.com/mohamed-bensakar/homelab) | Security home lab with pfSense, Kali and Active Directory |
 | [**cheatsheets**](https://github.com/mohamed-bensakar/cheatsheets) | Quick references for networking, Linux and security tools |
 
+## 🐍 Activity
+
+<div align="center">
+
+![Contribution snake](https://raw.githubusercontent.com/mohamed-bensakar/mohamed-bensakar/output/snake-dark.svg)
+
+</div>
+
 ## 📬 Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Bensakar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-bensakar-864b3b406/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamedbensakar08@gmail.com)
+<!-- Discord: remove these comment markers and put your Discord user ID in the link
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/YOUR_DISCORD_ID)
+-->
 
 <div align="center">
 
