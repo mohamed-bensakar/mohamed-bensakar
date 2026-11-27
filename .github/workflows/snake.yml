@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate profile telemetry
 
 on:
   schedule:
@@ -15,11 +15,19 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?palette=github-dark
+            dist/snake-dark.svg?palette=github-dark&color_snake=#22e4ff&color_dots=#0e1a33,#16406e,#2358ad,#3d7bff,#9d6bff
+
+      - name: Draw telemetry card
+        run: python3 scripts/stats.py dist/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
